@@ -2,15 +2,15 @@
 
 # Portfolio
 
-Welcome to my portfolio! This is a showcase of my work and skills as a developer. Here, you can explore the projects I've worked on, get to know more about my background, and see the technologies and tools I've used.
+Welcome to my portfolio! I am a student currently enrolled in a blockchain architect program, and this portfolio showcases my work, projects, and skills as I advance in my studies.
 
 ## About Me
 
-I am a passionate developer with a strong interest in creating innovative solutions and tackling complex challenges. My background includes experience in full-stack development, from building dynamic web applications to managing databases and deploying applications.
+I am a student with a keen interest in blockchain technology and software development. My education has provided me with a strong foundation in both frontend and backend development, and I have practical experience working with the MERN stack (MongoDB, Express.js, React, Node.js). I am eager to apply these skills in innovative projects and explore new opportunities.
 
 ## Purpose
 
-The purpose of this portfolio is to provide a comprehensive overview of my skills and projects. Whether you’re interested in seeing my work, learning about my expertise, or exploring potential collaboration opportunities, this portfolio aims to give you a clear picture of my abilities and achievements.
+The purpose of this portfolio is to present the projects I have worked on, the skills I have acquired, and the technologies I am passionate about. It serves as a platform to demonstrate my growth and capabilities as I continue my studies and pursue further learning and development.
 
 ## Projects
 
