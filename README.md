@@ -1,4 +1,4 @@
-![Screenshot](src/assets/images/portfolio.png)
+![Screenshot](src/assets/images/female-web-developer-7362400-6031665-ezgif.com-optimize.gif)
 
 # Portfolio Website
 
