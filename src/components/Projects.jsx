@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { KBA_Course, AssetPro, CookBook } from "../assets/images/index.js";
+import { KBA_Course, AssetPro, CookBook, ElectricityBill, Blog, Employee } from "../assets/images/index.js";
 import Modal from './modal.jsx';
 
 function Projects() {
@@ -44,25 +44,46 @@ function Projects() {
       description: 'This project is a web application designed to showcase various blockchain-related courses.',
       github: 'https://github.com/Neethu-Muthu/KBA_COURSES_MERN_WITH_CSS',
       caption: 'A comprehensive platform for learning about blockchain technology.',
-      // live: 'https://talhashah-dev.github.io/blogging-app/'
     },
     {
       id: 2,
       title: 'AssetPro: Asset Management App',
       image: AssetPro,
-      description: 'Showcasing all JavaScript projects that I have built.',
+      description: 'An efficient tool for managing and tracking IT assets.',
       github: 'https://github.com/Neethu-Muthu/IT_ASSETMANAGEMENT_PROJECT_DOCKERIZED',
       caption: 'An efficient tool for managing and tracking IT assets.',
-      // live: 'https://talhashah-dev.github.io/js-projects/'
     },
     {
       id: 3,
       title: 'CookBook',
       image: CookBook,
-      description: 'Personal Portfolio built with React.js & Tailwind CSS',
+      description: 'A comprehensive recipe book featuring a variety of delicious and easy-to-make dishes.',
       github: 'https://github.com/Neethu-Muthu/COOKBOOK_DOCKER',
-      caption: 'A modern and stylish personal portfolio to showcase my work.',
-      // live: 'https://talhashah.vercel.app/'
+      caption: 'A comprehensive recipe book featuring a variety of delicious and easy-to-make dishes.',
+    },
+    {
+      id: 4,
+      title: 'Electricity Bill Management System',
+      image: ElectricityBill,
+      description: 'A system to manage and track electricity bills efficiently.',
+      github: 'https://github.com/Neethu-Muthu/Electricity_Bill_Management_System',
+      caption: 'A system to manage and track electricity bills efficiently.',
+    },
+    {
+      id: 5,
+      title: 'Blog App',
+      image: Blog,
+      description: 'A blogging platform built with MongoDB, Express, React, and Node.js.',
+      github: 'https://github.com/Neethu-Muthu/Blog_App-MongoDB',
+      caption: 'A platform for creating and managing blog posts.',
+    },
+    {
+      id: 6,
+      title: 'Employee Management App',
+      image: Employee,
+      description: 'An application to manage employee information and records.',
+      github: 'https://github.com/Neethu-Muthu/Employee-Management-App_MongoDB',
+      caption: 'An application to manage employee information and records.',
     }
   ];
 

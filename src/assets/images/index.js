@@ -19,9 +19,12 @@ import MongoDB_Logo from "./mongodb_logo.svg"
 import Office_Logo from "./png-transparent-microsoft-icons-microsoft-office-365-computer-software-microsoft-office-2016-word-text-computer-logo-thumbnail.png";
 import NodeJs_Logo from "./nodejsStackedDark.svg";
 import ExpressJs_Logo from "./icons8-express-js.svg";
-import KBA_Course from "./kba (1).png"
-import AssetPro  from "./best-asset-management-software-system-solutions.webp"
-import CookBook from "./Logo.jpeg"
+import KBA_Course from "./kba (1).png";
+import AssetPro  from "./best-asset-management-software-system-solutions.webp";
+import CookBook from "./Logo.jpeg";
+import ElectricityBill from "./Screenshot from 2024-08-08 00-23-35.png";
+import Blog from "./blog-3596548_640.webp";
+import Employee from "./239-2394224_collaboration-solutions-advantage-of-the-employee-management-system.png";
 
 
 
@@ -61,6 +64,9 @@ export {
   Design_Certificate,
   AssetPro,
   CookBook,
+  ElectricityBill,
+  Blog,
+  Employee,
   // JS_Certificate,
   MongoDB_Logo,
   NodeJs_Logo,
