@@ -43,6 +43,7 @@ function Projects() {
       image: KBA_Course,
       description: 'This project is a web application designed to showcase various blockchain-related courses.',
       github: 'https://github.com/Neethu-Muthu/KBA_COURSES_MERN_WITH_CSS',
+      caption: 'A comprehensive platform for learning about blockchain technology.',
       // live: 'https://talhashah-dev.github.io/blogging-app/'
     },
     {
@@ -51,6 +52,7 @@ function Projects() {
       image: AssetPro,
       description: 'Showcasing all JavaScript projects that I have built.',
       github: 'https://github.com/Neethu-Muthu/IT_ASSETMANAGEMENT_PROJECT_DOCKERIZED',
+      caption: 'An efficient tool for managing and tracking IT assets.',
       // live: 'https://talhashah-dev.github.io/js-projects/'
     },
     {
@@ -59,6 +61,7 @@ function Projects() {
       image: CookBook,
       description: 'Personal Portfolio built with React.js & Tailwind CSS',
       github: 'https://github.com/Neethu-Muthu/COOKBOOK_DOCKER',
+      caption: 'A modern and stylish personal portfolio to showcase my work.',
       // live: 'https://talhashah.vercel.app/'
     }
   ];
@@ -84,8 +87,9 @@ function Projects() {
             />
 
             <div className={`${visible === project.id || !isLargeScreen ? 'absolute flex-col flex justify-end bg-black bg-opacity-45 inset-0 bg-gradient-to-t from-black via-transparent' : 'hidden'} max-md:from-transparent max-md:static max-md:bg-white w-full`}>
-              <div className="px-4">
+              <div className="px-4 py-2">
                 <h1 className="font-bold text-xl mb-1 mt-1 text-white max-md:text-black">{project.title}</h1>
+                <p className="text-sm text-white max-md:text-black">{project.caption}</p>
               </div>
             </div>
           </div>

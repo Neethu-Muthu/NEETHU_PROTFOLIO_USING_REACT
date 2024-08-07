@@ -22,6 +22,7 @@ function Modal({ project, onClose }) {
           <div className="md:ml-6 mt-4 md:mt-0">
             <h1 className="text-3xl font-bold mb-2">{project.title}</h1>
             <p className="text-lg mb-4">{project.description}</p>
+            <p className="text-md mb-4 italic">{project.caption}</p>
             <a
               href={project.github}
               target="_blank"
