@@ -29,6 +29,7 @@ import Employee from "./239-2394224_collaboration-solutions-advantage-of-the-emp
 
 
 
+
 // Certificates
 import Design_Certificate from "./design-certificate.png";
 // import JS_Certificate from "./js-dsa-certificate.png";
@@ -37,7 +38,8 @@ import JS_Certificate from "./duk_page-0001.jpg";
 import Google_Certificate from "./GoogleITSupport_page-0001.jpg";
 import KBA_Certificate from "./IIITMK-KBA-BFP05-OL-21-12072 (1)_page-0001.jpg";
 import Paper_Certificate from "./paper_page-0001.jpg";
-import Privacy_Certificate from "./Privacy and Security in Online Social Media Certificate (4).jpg"
+import Privacy_Certificate from "./Privacy and Security in Online Social Media Certificate (4).jpg";
+import DEB from "./DEB_CERTIFICATE.jpg";
 
 
 
@@ -77,6 +79,7 @@ export {
   Google_Certificate,
   KBA_Certificate,
   Paper_Certificate,
-  Privacy_Certificate
+  Privacy_Certificate,
+  DEB
 
 };

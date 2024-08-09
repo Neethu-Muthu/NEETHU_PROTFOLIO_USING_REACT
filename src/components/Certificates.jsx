@@ -4,7 +4,8 @@ import {
   JS_Certificate,
   Google_Certificate,
   KBA_Certificate,
-  Privacy_Certificate
+  Privacy_Certificate,
+  DEB
 } from "../assets/images";
 
 const Certificates = () => {
@@ -13,6 +14,19 @@ const Certificates = () => {
       <h1 className="text-5xl font-bold mb-8 text-center">Certificates</h1>
 
       <div className="flex flex-wrap justify-center gap-6">
+        <div className="w-[250px] h-[350px] rounded overflow-hidden shadow-lg bg-white hover:shadow-indigo-500 transition-all border border-white pb-4 cursor-pointer">
+          <img className="w-full h-[150px] object-cover" src={DEB} alt="Deep Learning" />
+          <div className="px-3 h-[200px] overflow-auto">
+            <h1 className="font-bold text-lg mb-1 mt-1 text-black">
+              Developer Essential for Blockchain - KBA Certification
+            </h1>
+            <p className="text-gray-700 text-sm">
+              This program provided a solid foundation in React, Express, MongoDB, Docker, and Git, setting the stage for future exploration in DApp development.
+            </p>
+          </div>
+        </div>
+
+
         <div className="w-[250px] h-[350px] rounded overflow-hidden shadow-lg bg-white hover:shadow-indigo-500 transition-all border border-white pb-4 cursor-pointer">
           <img className="w-full h-[150px] object-cover" src={DeepLearning_Certificate} alt="Deep Learning" />
           <div className="px-3 h-[200px] overflow-auto">
@@ -41,7 +55,7 @@ const Certificates = () => {
           <img className="w-full h-[150px] object-cover" src={KBA_Certificate} alt="KBA Certification" />
           <div className="px-3 h-[200px] overflow-auto">
             <h1 className="font-bold text-lg mb-1 mt-1 text-black">
-              KBA Certification
+              Blockchain Foundation Course - KBA Certification
             </h1>
             <p className="text-gray-700 text-sm">
               Learn the basics of blockchain technology, including decentralization, smart contracts, and cryptocurrencies. Ideal for beginners and professionals, this course covers key concepts, Ethereum, Hyperledger, and blockchain applications beyond crypto.
