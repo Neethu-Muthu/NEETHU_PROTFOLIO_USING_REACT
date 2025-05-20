@@ -31,7 +31,7 @@ function Projects() {
       image: TicketMasterGif,
       description:
         "TicketMaster app built on the Ethereum blockchain. Users can browse events, view seat availability, and securely purchase tickets using MetaMask.",
-      github: "https://github.com/yourusername/ticketmaster-dapp",
+      github: "https://github.com/Neethu-Muthu/ticketmaster_app",
       caption: "Decentralized ticket booking app on Ethereum using MetaMask.",
     },
     {
@@ -40,7 +40,7 @@ function Projects() {
       image: SecureBallotGif,
       description:
         "A secure cooperative bank voting system built on Hyperledger Fabric, featuring private data collection and automated winner declaration.",
-      github: "https://github.com/yourusername/secureballot",
+      github: "https://github.com/Neethu-Muthu/SecureBallot-Hyperledger",
       caption: "Hyperledger-based secure and private voting system.",
     },
     {
@@ -49,7 +49,7 @@ function Projects() {
       image: CertiLinkGif,
       description:
         "A decentralized app on Ethereum to issue and verify certificates using smart contracts.",
-      github: "https://github.com/yourusername/certilink-dapp",
+      github: "https://github.com/neethu-muthu/certilink-dapp",
       caption: "Ethereum-based certificate issuing and verification platform.",
     },
     {
@@ -58,7 +58,7 @@ function Projects() {
       image: NFTMarketplaceGif,
       description:
         "Decentralized NFT marketplace built on Hyperledger Fabric using ERC20 and ERC721 token standards.",
-      github: "https://github.com/yourusername/hyperledger-nft-marketplace",
+      github: "https://github.com/Neethu-Muthu/NFT-Marketplace-Fabric",
       caption: "NFT minting and trading marketplace using Hyperledger Fabric.",
     },
     {
