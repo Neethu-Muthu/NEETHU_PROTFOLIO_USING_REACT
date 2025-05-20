@@ -25,8 +25,28 @@ import CookBook from "./Logo.jpeg";
 import ElectricityBill from "./Screenshot from 2024-08-08 00-23-35.png";
 import Blog from "./blog-3596548_640.webp";
 import Employee from "./239-2394224_collaboration-solutions-advantage-of-the-employee-management-system.png";
-
-
+import CertiLinkGif from "./download.gif";
+import NFTMarketplaceGif from "./Nft Crypto GIF by SuperRareBears.gif";
+import SecureBallotGif from "./Voting Election Day GIF by Lo Harris.gif";
+import TicketMasterGif from "./Guitarist.gif";
+import AssetGif from "./Asset.gif";
+import Bill from "./Black Out Animation GIF by GOOD PUPPY.gif";
+import BlogGif from "./New Blog GIF by Commencis.gif";
+import CookBookGif from "./cookbook impatient foodie GIF by Simon & Schuster.gif";
+import EmployeeGif from "./employee.gif";
+import KBAGif from "./KBACourse.gif";
+import Go from "./Go-Logo_LightBlue.png";
+import fabric from "./hyperledger_fabric_logo_color.webp";
+import Identus from "./indentus_stroke.webp";
+import Api from "./api.png";
+import Canton from "./canton.jpg";
+import Daml from "./daml.jpeg";
+import ethereum from "./ethereum-eth-logo.png";
+import ERC721 from "./erc721.png";
+import ERC1155 from "./erc1155.png";
+import SmartContract from "./smartcontract.webp";
+import ERC20 from "./Erc20.png";
+import Cursor from "./cursor.jpeg";
 
 
 
@@ -80,6 +100,29 @@ export {
   KBA_Certificate,
   Paper_Certificate,
   Privacy_Certificate,
-  DEB
+  DEB,
+  CertiLinkGif,
+  NFTMarketplaceGif,
+  SecureBallotGif,
+  TicketMasterGif,
+  AssetGif,
+  Bill,
+  BlogGif,
+  KBAGif,
+  EmployeeGif,
+  CookBookGif,
+  Go,
+  fabric,
+  ERC721,
+  ERC1155,
+  ethereum,
+  Api,
+  SmartContract,
+  Daml,
+  Canton,
+  Identus,
+  ERC20,
+  Cursor
+
 
 };

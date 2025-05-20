@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
-    <div className="mx-auto w-full text-center">
-      <p className="text-xl">Made with ❤️ by <a className="hover:text-gray-400" href="https://www.linkedin.com/in/neethumuthu/" target="_blank" rel="noreferrer"> Neethu M </a></p>
-    </div>
-  )
+    <footer className="black py-5 border-t mt-16">
+      <div className="text-center text-sm text-gray-500">
+        © {new Date().getFullYear()} Neethu M. All rights reserved.
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;

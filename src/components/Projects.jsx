@@ -1,32 +1,20 @@
-import React, { useState, useEffect } from 'react';
-import { KBA_Course, AssetPro, CookBook, ElectricityBill, Blog, Employee } from "../assets/images/index.js";
-import Modal from './modal.jsx';
+import React, { useState, useEffect } from "react";
+import {
+  TicketMasterGif,
+  SecureBallotGif,
+  CertiLinkGif,
+  NFTMarketplaceGif,
+  KBAGif,
+  AssetGif,
+  CookBookGif,
+  Bill,
+  BlogGif,
+  EmployeeGif,
+} from "../assets/images/index.js";
+import Modal from "./modal.jsx";
 
 function Projects() {
-  const [visible, setVisible] = useState(0);
-  const [isLargeScreen, setIsLargeScreen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsLargeScreen(window.innerWidth >= 1024);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    // Initial check
-    handleResize();
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-  const handleHover = (index) => {
-    if (isLargeScreen) {
-      setVisible(index);
-    }
-  };
 
   const handleProjectClick = (project) => {
     setSelectedProject(project);
@@ -39,52 +27,96 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'KBA Course App',
-      image: KBA_Course,
-      description: 'This project is a web application designed to showcase various blockchain-related courses.',
-      github: 'https://github.com/Neethu-Muthu/KBA_COURSES_MERN_WITH_CSS',
-      caption: 'A comprehensive platform for learning about blockchain technology.',
+      title: "TicketMaster DApp",
+      image: TicketMasterGif,
+      description:
+        "TicketMaster app built on the Ethereum blockchain. Users can browse events, view seat availability, and securely purchase tickets using MetaMask.",
+      github: "https://github.com/yourusername/ticketmaster-dapp",
+      caption: "Decentralized ticket booking app on Ethereum using MetaMask.",
     },
     {
       id: 2,
-      title: 'AssetPro: Asset Management App',
-      image: AssetPro,
-      description: 'An efficient tool for managing and tracking IT assets.',
-      github: 'https://github.com/Neethu-Muthu/IT_ASSETMANAGEMENT_PROJECT_DOCKERIZED',
-      caption: 'An efficient tool for managing and tracking IT assets.',
+      title: "SecureBallot",
+      image: SecureBallotGif,
+      description:
+        "A secure cooperative bank voting system built on Hyperledger Fabric, featuring private data collection and automated winner declaration.",
+      github: "https://github.com/yourusername/secureballot",
+      caption: "Hyperledger-based secure and private voting system.",
     },
     {
       id: 3,
-      title: 'CookBook',
-      image: CookBook,
-      description: 'A comprehensive recipe book featuring a variety of delicious and easy-to-make dishes.',
-      github: 'https://github.com/Neethu-Muthu/COOKBOOK_DOCKER',
-      caption: 'A comprehensive recipe book featuring a variety of delicious and easy-to-make dishes.',
+      title: "CertiLink DApp",
+      image: CertiLinkGif,
+      description:
+        "A decentralized app on Ethereum to issue and verify certificates using smart contracts.",
+      github: "https://github.com/yourusername/certilink-dapp",
+      caption: "Ethereum-based certificate issuing and verification platform.",
     },
     {
       id: 4,
-      title: 'Electricity Bill Management System',
-      image: ElectricityBill,
-      description: 'A system to manage and track electricity bills efficiently.',
-      github: 'https://github.com/Neethu-Muthu/Electricity_Bill_Management_System',
-      caption: 'A system to manage and track electricity bills efficiently.',
+      title: "NFT Marketplace on Hyperledger Fabric",
+      image: NFTMarketplaceGif,
+      description:
+        "Decentralized NFT marketplace built on Hyperledger Fabric using ERC20 and ERC721 token standards.",
+      github: "https://github.com/yourusername/hyperledger-nft-marketplace",
+      caption: "NFT minting and trading marketplace using Hyperledger Fabric.",
     },
     {
       id: 5,
-      title: 'Blog App',
-      image: Blog,
-      description: 'A blogging platform built with MongoDB, Express, React, and Node.js.',
-      github: 'https://github.com/Neethu-Muthu/Blog_App-MongoDB',
-      caption: 'A platform for creating and managing blog posts.',
+      title: "KBA Course App",
+      image: KBAGif,
+      description:
+        "This project is a web application designed to showcase various blockchain-related courses.",
+      github: "https://github.com/Neethu-Muthu/KBA_COURSES_MERN_WITH_CSS",
+      caption:
+        "A comprehensive platform for learning about blockchain technology.",
     },
     {
       id: 6,
-      title: 'Employee Management App',
-      image: Employee,
-      description: 'An application to manage employee information and records.',
-      github: 'https://github.com/Neethu-Muthu/Employee-Management-App_MongoDB',
-      caption: 'An application to manage employee information and records.',
-    }
+      title: "AssetPro: Asset Management App",
+      image: AssetGif,
+      description: "An efficient tool for managing and tracking IT assets.",
+      github:
+        "https://github.com/Neethu-Muthu/IT_ASSETMANAGEMENT_PROJECT_DOCKERIZED",
+      caption: "An efficient tool for managing and tracking IT assets.",
+    },
+    {
+      id: 7,
+      title: "CookBook",
+      image: CookBookGif,
+      description:
+        "A comprehensive recipe book featuring a variety of delicious and easy-to-make dishes.",
+      github: "https://github.com/Neethu-Muthu/COOKBOOK_DOCKER",
+      caption:
+        "A comprehensive recipe book featuring a variety of delicious and easy-to-make dishes.",
+    },
+    {
+      id: 8,
+      title: "Electricity Bill Management System",
+      image: Bill,
+      description:
+        "A system to manage and track electricity bills efficiently.",
+      github:
+        "https://github.com/Neethu-Muthu/Electricity_Bill_Management_System",
+      caption: "A system to manage and track electricity bills efficiently.",
+    },
+    {
+      id: 9,
+      title: "Blog App",
+      image: BlogGif,
+      description:
+        "A blogging platform built with MongoDB, Express, React, and Node.js.",
+      github: "https://github.com/Neethu-Muthu/Blog_App-MongoDB",
+      caption: "A platform for creating and managing blog posts.",
+    },
+    {
+      id: 10,
+      title: "Employee Management App",
+      image: EmployeeGif,
+      description: "An application to manage employee information and records.",
+      github: "https://github.com/Neethu-Muthu/Employee-Management-App_MongoDB",
+      caption: "An application to manage employee information and records.",
+    },
   ];
 
   return (
@@ -95,29 +127,27 @@ function Projects() {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="w-[30%] max-md:w-[49%] max-sm:w-full h-[250px] rounded overflow-hidden shadow-lg hover:shadow-indigo-500 border border-white relative cursor-pointer"
+            className="w-[32%] max-md:w-[49%] max-sm:w-full h-auto rounded overflow-hidden shadow-lg hover:shadow-indigo-500 border border-white cursor-pointer"
             onClick={() => handleProjectClick(project)}
-            onMouseOver={() => handleHover(project.id)}
-            onMouseLeave={() => setVisible(0)}
           >
-            <img 
-              className="w-full h-full object-cover"
+            <img
+              className="w-full h-[300px] object-cover"
               src={project.image}
               alt={project.title}
-              style={{ objectFit: 'cover' }}
             />
-
-            <div className={`${visible === project.id || !isLargeScreen ? 'absolute flex-col flex justify-end bg-black bg-opacity-45 inset-0 bg-gradient-to-t from-black via-transparent' : 'hidden'} max-md:from-transparent max-md:static max-md:bg-white w-full`}>
-              <div className="px-4 py-2">
-                <h1 className="font-bold text-xl mb-1 mt-1 text-white max-md:text-black">{project.title}</h1>
-                <p className="text-sm text-white max-md:text-black">{project.caption}</p>
-              </div>
+            <div className="bg-white px-4 py-3">
+              <h2 className="text-lg font-bold text-gray-800 mb-1">
+                {project.title}
+              </h2>
+              <p className="text-sm text-gray-600">{project.caption}</p>
             </div>
           </div>
         ))}
       </div>
 
-      {selectedProject && <Modal project={selectedProject} onClose={closeModal} />}
+      {selectedProject && (
+        <Modal project={selectedProject} onClose={closeModal} />
+      )}
     </div>
   );
 }
