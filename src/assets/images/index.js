@@ -60,6 +60,9 @@ import KBA_Certificate from "./IIITMK-KBA-BFP05-OL-21-12072 (1)_page-0001.jpg";
 import Paper_Certificate from "./paper_page-0001.jpg";
 import Privacy_Certificate from "./Privacy and Security in Online Social Media Certificate (4).jpg";
 import DEB from "./DEB_CERTIFICATE.jpg";
+import CBDCPlaceholder from "./Crypto Phone GIF by Pudgy Penguins.gif";
+import MoneyMarketPlaceholder from "./Invest Stock Market GIF by xponentialdesign.gif";
+
 
 
 
@@ -122,7 +125,9 @@ export {
   Canton,
   Identus,
   ERC20,
-  Cursor
+  Cursor,
+  CBDCPlaceholder,
+  MoneyMarketPlaceholder
 
 
 };
