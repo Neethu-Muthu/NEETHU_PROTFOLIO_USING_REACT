@@ -47,7 +47,7 @@ import ERC1155 from "./erc1155.png";
 import SmartContract from "./smartcontract.webp";
 import ERC20 from "./Erc20.png";
 import Cursor from "./cursor.jpeg";
-
+import RWA from "./rwa.png";
 
 
 // Certificates
@@ -62,6 +62,7 @@ import Privacy_Certificate from "./Privacy and Security in Online Social Media C
 import DEB from "./DEB_CERTIFICATE.jpg";
 import CBDCPlaceholder from "./Crypto Phone GIF by Pudgy Penguins.gif";
 import MoneyMarketPlaceholder from "./Invest Stock Market GIF by xponentialdesign.gif";
+
 
 
 
@@ -127,7 +128,8 @@ export {
   ERC20,
   Cursor,
   CBDCPlaceholder,
-  MoneyMarketPlaceholder
+  MoneyMarketPlaceholder,
+  RWA
 
 
 };

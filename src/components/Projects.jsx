@@ -12,6 +12,7 @@ import {
   EmployeeGif,
   CBDCPlaceholder,
   MoneyMarketPlaceholder,
+  RWA,
 } from "../assets/images/index.js";
 import Modal from "./modal.jsx";
 
@@ -57,6 +58,22 @@ function Projects() {
       roles: [
         "Set up the Canton network",
         "Developed DAML smart contracts",
+        "Built blockchain APIs for integration",
+      ],
+    },
+
+    {
+      id: 13,
+      title: "RWA Tokenization Platform",
+      image: RWA, // add your image import
+      description:
+        "A Real-World Asset (RWA) Tokenization platform built using the Canton blockchain and DAML smart contracts to tokenize land properties into fractional digital tokens.",
+      github: null,
+      caption:
+        "Canton-based RWA platform for fractional land tokenization with DAML smart contracts.",
+      type: "client",
+      roles: [
+        "Developed DAML smart contracts for land tokenization",
         "Built blockchain APIs for integration",
       ],
     },
